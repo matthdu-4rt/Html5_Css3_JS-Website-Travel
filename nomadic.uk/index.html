@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Nomadic.uk </title>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- cdnjs -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Container-->
+    <div class="container">
+
+        <!-- Top Bar -->
+        <div id="#top" class="top-bar">
+            <h3 class="intro">www.nomadic.uk</h3>
+            <p>Learn More</p>
+        </div>
+        <!-- End Top Bar -->
+
+        <!-- Navbar -->
+        <div class="navbar">
+            <div>
+                <h1 id="#top">Nomadic.uk</h1>
+            </div>
+            <div class="search">
+                <form>
+                    <div class="input-container">
+                        <input type="text" placeholder="Search Properties">
+                    </div>
+                    <div>
+                        <button><i class="fa-solid fa-magnifying-glass-location"></i></button>
+                    </div>
+                </form>
+            </div>
+        
+        <div class="menu">
+            <ul class="nav-menu">
+                <li>
+                    <a onclick="closeMenu" href="#listings" class="nav-link">listings</a>
+                </li>
+                <li>
+                    <a onclick="closeMenu" href="#featured" class="nav-link">Featured</a>
+                </li>
+                <li>
+                    <a onclick="closeMenu" href="#popular" class="nav-link">Popular</a>
+                </li>
+                <li>
+            </ul>
+            <div onclick="mobileMenu()" class="mobile">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </div>
+    <!-- End Navbar -->
+
+    <!-- Sart Bar -->
+    <div class="sart-bar">
+        <div>
+            <i class="fa-solid fa-house-chimney"></i>
+            <p>House</p>
+        </div>
+        <div>
+            <i class="fa-solid fa-snowflake"></i>
+            <p>Artic</p>
+        </div>
+        <div>
+            <i class="fa-solid fa-rocket"></i>
+            <p>Space</p>
+        </div>
+        <div>
+            <i class="fa-solid fa-tree"></i>
+            <p>Trees</p>
+        </div>
+        <div>
+            <i class="fa-solid fa-building"></i>
+            <p>City</p>
+        </div>
+        <div>
+            <i class="fa-solid fa-campground"></i>
+            <p>Camping</p>
+        </div>
+        <div>
+            <i class="fa-solid fa-umbrella-beach "></i>
+            <p>Beach</p>
+        </div>
+        <div>
+            <i class="fa-solid fa-volleyball "></i>
+            <p>Games</p>
+        </div>
+    </div>
+    <!-- End Sart Bar -->
+
+    <!-- Listing -->
+    <div id="listings" class="listings">
+        <!--= Propert Card One =-->
+        <div class="card">
+            <img
+             src="https://images.unsplash.com/photo-1600573472556-e636c2acda88?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" 
+             alt="/" />
+             <div>
+                <div class="card-title">
+                    <h4>City, State</h4>s
+                    <p>5.0 <i class="fa-solid fa-star"></i> </p>
+                 </div>
+                 <p><span class="grey"> Hosted by Reality Group, The Angels. USA </span></p>
+                 <p><span class="grey"> Jun 1 - 7 </span></p>
+                 <p> $938 night </p>
+             </div>
+        </div>
+    
+         <!--= Propert Card One =-->
+    <div class="card">
+        <img
+         src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" 
+         alt="/" />
+         <div>
+            <div class="card-title">
+                <h4>City, State</h4>s
+                <p>5.0 <i class="fa-solid fa-star"></i> </p>
+             </div>
+             <p><span class="grey"> Hosted by N.York, United State. USA </span></p>
+             <p><span class="grey"> Jun 1 - 7 </span></p>
+             <p> $.1579 night </p>
+         </div>
+    </div>
+
+    <!--= Propert Card One =-->
+    <div class="card">
+        <img
+         src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" 
+         alt="/" />
+         <div>
+            <div class="card-title">
+                <h4>City, State</h4>s
+                <p>5.0 <i class="fa-solid fa-star"></i> </p>
+             </div>
+             <p><span class="grey"> Hosted by Munich, Germany. DE </span></p>
+             <p><span class="grey"> Jun 1 - 7 </span></p>
+             <p> $895 night </p>
+         </div>
+    </div>
+
+    <!--= Propert Card One =-->
+    <div class="card">
+        <img
+         src="https://images.unsplash.com/photo-1464146072230-91cabc968266?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" 
+         alt="/" />
+         <div>
+            <div class="card-title">
+                <h4>City, State</h4>s
+                <p>5.0 <i class="fa-solid fa-star"></i> </p>
+             </div>
+             <p><span class="grey"> Hosted by London, United Kingdom. UK </span></p>
+             <p><span class="grey"> Jun 1 - 7 </span></p>
+             <p> $1,780 night </p>
+         </div>
+    </div>
+
+        <!--== Propert Card Two ==-->
+        <div class="card">
+            <img
+             src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=992&q=80" 
+             alt="/" />
+             <div>
+                <div class="card-title">
+                    <h4>City, State</h4>s
+                    <p>5.0 <i class="fa-solid fa-star"></i> </p>
+                 </div>
+                 <p><span class="grey"> Hosted by Melbourne VIC, Australia </span></p>
+                 <p><span class="grey"> Jun 1 - 7 </span></p>
+                 <p> $479 night </p>
+             </div>
+        </div>
+    
+         <!--== Propert Card Two ==-->
+    <div class="card">
+        <img
+         src="https://images.unsplash.com/photo-1599809275671-b5942cabc7a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" 
+         alt="/" />
+         <div>
+            <div class="card-title">
+                <h4>City, State</h4>s
+                <p>5.0 <i class="fa-solid fa-star"></i> </p>
+             </div>
+             <p><span class="grey"> Hosted by Sevilla, Espana. ES </span></p>
+             <p><span class="grey"> Jun 1 - 7 </span></p>
+             <p> $587 night </p>
+         </div>
+    </div>
+
+    <!--== Propert Card Two ==-->
+    <div class="card">
+        <img
+         src="https://images.unsplash.com/photo-1531971589569-0d9370cbe1e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1181&q=80" 
+         alt="/" />
+         <div>
+            <div class="card-title">
+                <h4>City, State</h4>s
+                <p>5.0 <i class="fa-solid fa-star"></i> </p>
+             </div>
+             <p><span class="grey"> Hosted by Hong Kong, CN </span></p>
+             <p><span class="grey"> Jun 1 - 7 </span></p>
+             <p> $1.857 night </p>
+         </div>
+    </div>
+
+    <!--== Propert Card Two ==-->
+    <div class="card">
+        <img
+         src="https://images.unsplash.com/photo-1579627559431-e9082454f2c0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" 
+         alt="/" />
+         <div>
+            <div class="card-title">
+                <h4>City, State</h4>s
+                <p>5.0 <i class="fa-solid fa-star"></i> </p>
+             </div>
+             <p><span class="grey"> Hosted by Great Tew, Chipping Norton, UK </span></p>
+             <p><span class="grey"> Jun 1 - 7 </span></p>
+             <p> $1.599 night </p>
+         </div>
+    </div>
+
+         <!--=== Propert Card Three ===-->
+         <div class="card">
+            <img
+             src="https://images.unsplash.com/photo-1448737933984-6d0ae61b2b57?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" 
+             alt="/" />
+             <div>
+                <div class="card-title">
+                    <h4>City, State</h4>s
+                    <p>5.0 <i class="fa-solid fa-star"></i> </p>
+                 </div>
+                 <p><span class="grey"> Hosted by McDougall Rd, Parry Sound, Canada. CA </span></p>
+                 <p><span class="grey"> Jun 1 - 7 </span></p>
+                 <p> $1.449 night </p>
+             </div>
+        </div>
+    
+         <!--=== Propert Card Three ===-->
+    <div class="card">
+        <img
+         src="https://images.unsplash.com/photo-1522440996526-502c69d2e861?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" 
+         alt="/" />
+         <div>
+            <div class="card-title">
+                <h4>City, State</h4>s
+                <p>5.0 <i class="fa-solid fa-star"></i> </p>
+             </div>
+             <p><span class="grey"> Hosted by Resort nomads, New York, USA  </span></p>
+             <p><span class="grey"> Jun 1 - 7 </span></p>
+             <p> $1.137 night </p>
+         </div>
+    </div>
+
+    <!--=== Propert Card Three ===-->
+    <div class="card">
+        <img
+         src="https://images.unsplash.com/photo-1582219896124-989a5b803364?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" 
+         alt="/" />
+         <div>
+            <div class="card-title">
+                <h4>City, State</h4>s
+                <p>5.0 <i class="fa-solid fa-star"></i> </p>
+             </div>
+             <p><span class="grey"> Hosted by Hallstatt, Österreich. FI </span></p>
+             <p><span class="grey"> Jun 1 - 7 </span></p>
+             <p> $2.359 night </p>
+         </div>
+    </div>
+
+    <!--=== Propert Card Three ===-->
+    <div class="card">
+        <img
+         src="https://images.unsplash.com/photo-1548704806-0c20f7ea6474?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" 
+         alt="/" />
+         <div>
+            <div class="card-title">
+                <h4>City, State</h4>s
+                <p>5.0 <i class="fa-solid fa-star"></i> </p>
+             </div>
+             <p><span class="grey"> Hosted by Emerald Lake, Canada. CA </span></p>
+             <p><span class="grey"> Jun 1 - 7 </span></p>
+             <p> $1.358 night </p>
+         </div>
+    </div>
+
+</div>
+    <!-- Listing End -->
+
+    <!--= Featured One =-->
+    <div id="#featured" class="featured">
+        <div class="title">
+            <h1>Featured</h1>
+        </div>
+        <div class="featured-wrapper">
+            <div class="main">
+                <img 
+                src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" 
+                alt="/" name="Hosted by Melbourne VIC, Australia"/>
+            </div>
+            <div>
+                <img 
+                src="https://images.unsplash.com/photo-1571274780648-1a1323a752b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" 
+                alt="/" name="Oberhofen Castle, Schloss, Oberhofen, Switzerland"/>
+            </div>
+            <div>
+                <img 
+                src="https://images.unsplash.com/photo-1565024144003-1e575b05564e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80" 
+                alt="/" name="Hobbiton, The Party Tree, Matamata, New Zealand"/>
+            </div>
+            <div>
+                <img 
+                src="https://images.unsplash.com/photo-1580494767366-82f4e74f5655?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" 
+                alt="/" name="Palm Beach, FL, USA"/>
+            </div>
+            <div>
+                <img 
+                src="https://images.unsplash.com/photo-1606298246186-08868ab77562?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" 
+                alt="/" name="York, UK"/>
+            </div>
+        </div>
+    </div>
+
+    <!--== Featured Two ==-->
+    <div id="#popular" class="featured">
+        <div class="title">
+            <h1>Popular</h1>
+        </div>
+        <div class="featured-wrapper">
+            <div>
+                <img 
+                src="https://images.unsplash.com/photo-1485415009267-44562f07e23f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" 
+                alt="/" name="Venice, Italy"/>
+            </div>
+            <div>
+                <img 
+                src="https://images.unsplash.com/photo-1582896908206-adc3def2772f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" 
+                alt="/" name="Hallstatt, Austria"/>
+            </div>
+            <div class="main">
+                <img 
+                src="https://images.unsplash.com/photo-1623298317883-6b70254edf31?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" 
+                alt="/" name="Medellín, Medellín, Colombia"/>
+            </div>
+            <div>
+                <img 
+                src="https://images.unsplash.com/photo-1605146769289-440113cc3d00?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" 
+                alt="/" name="Oshawa, ON, Canada"/>
+            </div>
+            <div>
+                <img 
+                src="https://images.unsplash.com/photo-1449844908441-8829872d2607?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" 
+                alt="/" name="Narvik HomeParc Mooi Zutendaal, Zutendaal, Belgium"/>
+            </div>
+        </div>
+    </div>
+    <!-- Featured End -->
+    <!-- Container End -->
+    </div>
+
+      <!-- Scroll to top -->
+      <div class="center">
+        <a href="#top">
+            <i class="fa-solid fa-chevron-up"></i>
+        </a>
+    </div>  
+
+   <!-- Footer -->
+   <footer> 
+    <div class="footer__content">
+        <h3>soyhipst</h3>
+        <p class="footer__text">Enthusiastic Back-End and Front-End Developer Jr. Autonomous. <br> 👨‍🚀 Mathematician's heart 🛰 My Life is an Algorithm 
+        </br> 👨‍💻 #ComputerScience #SoftwareEngineer 
+        </br> OpenSource: JS - PHP - Python HomeOffice:🇵🇪🇲🇽🇬🇧🇳🇱🇺🇸</p>
+        <ul class="socials">
+            <li><a href="#"> <i class="fa fa-facebook"> </i></a></li>
+            <li><a href="#"> <i class="fa fa-twitter"> </i></a></li>
+            <li><a href="#"> <i class="fa fa-linkedin"> </i></a></li>
+            <li><a href="#"> <i class="fa fa-github"> </i></a></li>
+        </ul>
+    </div>
+    <div class="footer-bottom">
+        <p> copyright <i class="fa fa-copyright"></i>2020 – 2022  Soyhipst. Hecho con <i class="fas fa-heart"></i> en Colombia. 
+            designed by <span>Matthias Duarte</span> creator HipstDeveloper </p>
+    </div>
+</footer>
+
+
+
+<script>
+    const menuBtn = document.querySelector('.mobile');
+    const navMenu = document.querySelector('.nav-menu');
+
+    const mobileMenu = () => {
+        menuBtn.classList.toggle('active');
+        navMenu.classList.toggle('active');
+    };
+
+    const closeMenu = () => {
+        navMenu.classList.toggle('active')
+    }
+</script>
+
+<!-- JavaScript -->
+<script src="js/main.js"></script>
+<script src="https://kit.fontawesome.com/a060385ce4.js" crossorigin="anonymous"></script>
+
+</body>
+<!-- End Body -->
+</html>
